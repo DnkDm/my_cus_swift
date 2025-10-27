@@ -3,6 +3,7 @@ import UIKit
 import Network
 
 class ConnectivityService {
+    
 
     static func ensureInternetConnection(viewController: UIViewController) async {
         await withCheckedContinuation { (continuation: CheckedContinuation<Void, Never>) in
